@@ -64,6 +64,7 @@ Uploaded main.py to main.py
 http://127.0.0.1:1880/ui/#!/0?socketid=eqlBI8CX3BSx3in6AAAD
 http://localhost:1880/meu-site
 
+https://docs.google.com/spreadsheets/d/1Om-rZYe8Dxe5o3YbUkUwUSQYizXaT2JsmRY9YXiC58k/edit?usp=sharing
 
 ## O que deve acontecer depois
 
