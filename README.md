@@ -40,7 +40,7 @@ to = "target:8080"
 3. No terminal, entre na pasta `esp32`:
 
 ```powershell
-cd "C:\Users\gabri_m6a73pm\OneDrive\Desktop\wokwi-vscode-micropython-main\wokwi-vscode-micropython-main\esp32"
+cd "C:..\wokwi-vscode-micropython-main\wokwi-vscode-micropython-main\esp32"
 ```
 
 4. Execute o upload manual:
