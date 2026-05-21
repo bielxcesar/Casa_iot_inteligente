@@ -40,14 +40,16 @@ to = "target:8080"
 3. No terminal, entre na pasta `esp32`:
 
 ```powershell
-cd "C:..\wokwi-vscode-micropython-main\wokwi-vscode-micropython-main\esp32"
+cd "C:...\Desktop\wokwi-vscode-micropython-main\wokwi-vscode-micropython-main\esp32"
 ```
 
 4. Execute o upload manual:
 
 ```powershell
-python upload_manual.py main.py main.py rfc2217://localhost:4000
+python upload_manual.py rfc2217://localhost:4000
+
 ```
+
 
 5. Aguarde a mensagem de sucesso:
 
@@ -64,7 +66,6 @@ Uploaded main.py to main.py
 http://127.0.0.1:1880/ui/#!/0?socketid=eqlBI8CX3BSx3in6AAAD
 http://localhost:1880/meu-site
 
-https://docs.google.com/spreadsheets/d/1Om-rZYe8Dxe5o3YbUkUwUSQYizXaT2JsmRY9YXiC58k/edit?usp=sharing
 
 ## O que deve acontecer depois
 
