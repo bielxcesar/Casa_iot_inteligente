@@ -81,6 +81,13 @@
       "top": 201.6,
       "left": 720,
       "attrs": { "text": "Janela" }
+    },
+    {
+      "type": "board-ssd1306",
+      "id": "oled1",
+      "top": -169.66,
+      "left": 0.23,
+      "attrs": { "i2cAddress": "0x3c" }
     }
   ],
   "connections": [
@@ -129,7 +136,11 @@
     [ "relay4:VCC", "bb1:bp.43", "red", [ "h0" ] ],
     [ "relay4:IN", "bb1:53b.j", "green", [ "h0" ] ],
     [ "bb1:53b.i", "esp:17", "green", [ "v19.2", "h-681.6" ] ],
-    [ "esp:27", "bb1:19b.g", "green", [ "v-9.45", "h326.4" ] ]
+    [ "esp:27", "bb1:19b.g", "green", [ "v-9.45", "h326.4" ] ],
+    [ "oled1:SDA", "esp:33", "green", [ "h48.07", "v105.6", "h-48" ] ],
+    [ "oled1:SCL", "esp:32", "green", [ "h57.9", "v105.6", "h-38.4" ] ],
+    [ "oled1:VCC", "bb1:tp.2", "red", [ "h57.75", "v76.8", "h116" ] ],
+    [ "oled1:GND", "bb1:tn.2", "black", [ "h86.4", "v105.7" ] ]
   ],
   "dependencies": {}
 }
