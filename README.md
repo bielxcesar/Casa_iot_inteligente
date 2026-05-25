@@ -23,6 +23,7 @@ Então criamos um caminho mais direto e compatível com o Wokwi, evitando a falh
 
 ## Como usar
 
+0. inicie o node-red no cmd
 1. Abra o simulador Wokwi e carregue o projeto.
 2. Garanta que o `wokwi.toml` contenha:
 
